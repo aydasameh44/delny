@@ -21,8 +21,6 @@ class MobileBody extends StatelessWidget {
             onPressed: () {},
           ),
           Container(
-            
-
             child: IconButton(
               icon: Icon(Icons.notification_add),
               onPressed: () {},

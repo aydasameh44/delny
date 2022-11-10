@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:dlni_app/constants.dart';
 import 'package:dlni_app/responsive/dimensions.dart';
 import 'package:dlni_app/responsive/responsive_layout.dart';
