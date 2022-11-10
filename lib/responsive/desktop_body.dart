@@ -8,10 +8,10 @@ class DesktopBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple[200],
+      backgroundColor: Colors.lightBlue[200],
       appBar: AppBar(
         title: Text(
-          'Delni',
+          'DELNI',
         ),
         centerTitle: true,
         actions: [

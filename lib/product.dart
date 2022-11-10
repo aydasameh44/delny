@@ -40,8 +40,8 @@ class ProductCard extends StatelessWidget {
             left: 0.0,
             child: Container(
               padding: EdgeInsets.symmetric(horizontal: kDefaultPadding),
-              height: 160.0,
-              width: 200.0,
+              height: 140.0,
+              width: 180.0,
               child: Image.asset(
                 product.image,
                 fit: BoxFit.cover,
@@ -74,6 +74,7 @@ class ProductCard extends StatelessWidget {
                   padding: const EdgeInsets.all(0.0),
                   child: Icon(
                     Icons.location_on_outlined,
+                    color: Colors.black26,
                   ),
                 ),
                 Padding(
@@ -87,8 +88,8 @@ class ProductCard extends StatelessWidget {
                   padding: const EdgeInsets.all(0),
                   child: Container(
                     padding: EdgeInsets.symmetric(
-                      horizontal: kDefaultPadding * 1.0,
-                      vertical: kDefaultPadding / 5,
+                      horizontal: kDefaultPadding * 0.5,
+                      vertical: kDefaultPadding / 8,
                     ),
                     decoration: BoxDecoration(
                       color: kSecondaryColor,

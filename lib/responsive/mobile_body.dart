@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:dlni_app/constants.dart';
 import 'package:dlni_app/models/product.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../product.dart';
 
@@ -9,15 +10,16 @@ class MobileBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple[200],
+      backgroundColor: Colors.lightBlue[200],
       appBar: AppBar(
         title: Text(
-          'Delni',
+          'DELNI',
+          style: GoogleFonts.getFont('Lato'),
         ),
         centerTitle: true,
         actions: [
           IconButton(
-            icon: Icon(Icons.arrow_back_ios),
+            icon: Icon(Icons.filter_list),
             onPressed: () {},
           ),
           Container(
@@ -27,7 +29,7 @@ class MobileBody extends StatelessWidget {
             ),
           ),
           IconButton(
-            icon: Icon(Icons.filter_list),
+            icon: Icon(Icons.arrow_back_ios_new),
             onPressed: () {},
           ),
         ],
