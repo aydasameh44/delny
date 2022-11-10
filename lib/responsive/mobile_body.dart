@@ -14,7 +14,7 @@ class MobileBody extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'DELNI',
-          style: GoogleFonts.getFont('Lato'),
+          style: GoogleFonts.getFont('LIII'),
         ),
         centerTitle: true,
         actions: [
